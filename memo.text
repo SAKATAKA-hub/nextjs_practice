@@ -26,15 +26,28 @@
 
         # Githubでプロジェクトを立ち上げ
 
+        # ローカルリポジトリの作成/コミット/
+        $ git init
+        $ git add .
+        $ git commit -m'created project'
+
+
         # Githubにプッシュする
         $ git remote add origin https://github.com/SAKATAKA-hub/nextjs_practice.git
         $ git branch -M main
         $ git push -u origin main
 
 
+
     #4. Verselからプロジェクトを立ち上げる
 
         # サインアップする（Githubアカウント など）
+        # New Project する
+        # Githubのプロジェクトをインポートする
+        # Configure Project -> [Deploy]を押す
+        # デプロイ完了（紙吹雪）
+        # サイトを開く [Visit](https://nextjs-practice-two-gold.vercel.app/)
+
 
 
 
