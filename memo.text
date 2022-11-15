@@ -1,0 +1,46 @@
+#0 Next.jsをVerselにデプロイする
+/**
+* -----------------------------------------------
+*  #0 Next.jsをVerselにデプロイする
+* -----------------------------------------------
+*/
+    #1. Next.jsのセットアップ
+        https://nextjs.org/docs
+
+        # npm(npx) または yarn でセットアップする
+        $ npx create-next-app@latest
+
+        What is your project named? //プロジェクトネームを入力
+        Would you like to use TypeScript with this project?
+        Would you like to use ESLint with this project? 
+        Success!…　//完了
+
+
+    #2. ローカルホストで立ち上げる
+
+        # 開発サーバーを起動しますhttp://localhost:3000
+        $ npm run dev
+
+
+    #3. Githubのリモートリポジトリを作る
+
+        # Githubでプロジェクトを立ち上げ
+
+        # Githubにプッシュする
+        $ git remote add origin https://github.com/SAKATAKA-hub/nextjs_practice.git
+        $ git branch -M main
+        $ git push -u origin main
+
+
+    #4. Verselからプロジェクトを立ち上げる
+
+        # サインアップする（Githubアカウント など）
+
+
+
+
+    TypeScript プロジェクトから始めたい場合
+    npx create-next-app@latest --typescript
+
+
+
